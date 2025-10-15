@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CricketMatchData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CricketData.xsd" error="none">
+  <MatchInfo matchID="INDPAK201706" matchType="ODI" status="Completed">
+    <MatchDetails>
+      <Venue>The Oval, London</Venue>
+      <Date>2017-06-18</Date>
+      <Weather>Sunny</Weather>
+      <Toss winner="Pakistan" decision="Bat" />
+      <Umpires>
+        <OnField>Richard Kettleborough</OnField>
+        <OnField>Marais Erasmus</OnField>
+        <ThirdUmpire>Rod Tucker</ThirdUmpire>
+        <Referee>Chris Broad</Referee>
+      </Umpires>
+    </MatchDetails>
+
+    <Teams>
+      <Team name="Pakistan" coach="Mickey Arthur" captain="Sarfraz Ahmed">
+        <Players>
+          <Player id="PAK01" role="Batsman">
+            <Name>Fakhar Zaman</Name>
+            <Batting>
+              <Runs>114</Runs>
+              <Balls>106</Balls>
+              <Fours>12</Fours>
+              <Sixes>3</Sixes>
+              <StrikeRate>107.54</StrikeRate>
+            </Batting>
+          </Player>
+          <Player id="PAK02" role="Bowler">
+            <Name>Mohammad Amir</Name>
+            <Bowling>
+              <Overs>6</Overs>
+              <Maidens>2</Maidens>
+              <Runs>16</Runs>
+              <Wickets>3</Wickets>
+              <Economy>2.66</Economy>
+            </Bowling>
+          </Player>
+        </Players>
+      </Team>
+
+      <Team name="India" coach="Anil Kumble" captain="Virat Kohli">
+        <Players>
+          <Player id="IND01" role="Batsman">
+            <Name>Hardik Pandya</Name>
+            <Batting>
+              <Runs>76</Runs>
+              <Balls>43</Balls>
+              <Fours>6</Fours>
+              <Sixes>4</Sixes>
+              <StrikeRate>176.74</StrikeRate>
+            </Batting>
+          </Player>
+        </Players>
+      </Team>
+    </Teams>
+
+    <Result>
+      <Winner>Pakistan</Winner>
+      <Margin>180 Runs</Margin>
+      <Scores>
+        <TeamScore team="Pakistan" runs="338" wickets="4" overs="50.0" />
+        <TeamScore team="India" runs="158" wickets="10" overs="30.3" />
+      </Scores>
+    </Result>
+  </MatchInfo>
+</CricketMatchData>

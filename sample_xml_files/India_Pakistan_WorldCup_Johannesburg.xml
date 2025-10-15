@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CricketMatchData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CricketData.xsd" error="none">
+  <MatchInfo matchID="INDPAK200709" matchType="T20" status="Completed">
+    <MatchDetails>
+      <Venue>Wanderers Stadium, Johannesburg</Venue>
+      <Date>2007-09-24</Date>
+      <Weather>Clear</Weather>
+      <Toss winner="India" decision="Bat" />
+      <Umpires>
+        <OnField>Simon Taufel</OnField>
+        <OnField>Mark Benson</OnField>
+        <ThirdUmpire>Daryl Harper</ThirdUmpire>
+        <Referee>Mike Procter</Referee>
+      </Umpires>
+    </MatchDetails>
+
+    <Teams>
+      <Team name="India" coach="Lalchand Rajput" captain="MS Dhoni">
+        <Players>
+          <Player id="IND01" role="Batsman">
+            <Name>Gautam Gambhir</Name>
+            <Batting>
+              <Runs>75</Runs>
+              <Balls>54</Balls>
+              <Fours>8</Fours>
+              <Sixes>2</Sixes>
+              <StrikeRate>138.88</StrikeRate>
+            </Batting>
+          </Player>
+          <Player id="IND02" role="All-Rounder">
+            <Name>Irfan Pathan</Name>
+            <Bowling>
+              <Overs>4</Overs>
+              <Maidens>0</Maidens>
+              <Runs>16</Runs>
+              <Wickets>3</Wickets>
+              <Economy>4.0</Economy>
+            </Bowling>
+          </Player>
+        </Players>
+      </Team>
+
+      <Team name="Pakistan" coach="Geoff Lawson" captain="Shoaib Malik">
+        <Players>
+          <Player id="PAK01" role="Batsman">
+            <Name>Misbah-ul-Haq</Name>
+            <Batting>
+              <Runs>43</Runs>
+              <Balls>38</Balls>
+              <Fours>4</Fours>
+              <Sixes>1</Sixes>
+              <StrikeRate>113.15</StrikeRate>
+            </Batting>
+          </Player>
+        </Players>
+      </Team>
+    </Teams>
+
+    <Result>
+      <Winner>India</Winner>
+      <Margin>5 Runs</Margin>
+      <Scores>
+        <TeamScore team="India" runs="157" wickets="5" overs="20.0" />
+        <TeamScore team="Pakistan" runs="152" wickets="10" overs="19.4" />
+      </Scores>
+    </Result>
+  </MatchInfo>
+</CricketMatchData>

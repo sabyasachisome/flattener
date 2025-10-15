@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CricketMatchData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CricketData.xsd" error="none">
+  <MatchInfo matchID="INDPAK202202" matchType="ODI" status="Completed">
+    <MatchDetails>
+      <Venue>R. Premadasa Stadium, Colombo</Venue>
+      <Date>2022-09-11</Date>
+      <Weather>Cloudy</Weather>
+      <Toss winner="Pakistan" decision="Bat" />
+      <Umpires>
+        <OnField>Kumar Dharmasena</OnField>
+        <OnField>Chris Gaffaney</OnField>
+        <ThirdUmpire>Michael Gough</ThirdUmpire>
+        <Referee>Jeff Crowe</Referee>
+      </Umpires>
+    </MatchDetails>
+
+    <Teams>
+      <Team name="Pakistan" coach="Grant Bradburn" captain="Babar Azam">
+        <Players>
+          <Player id="PAK01" role="Batsman">
+            <Name>Babar Azam</Name>
+            <Batting>
+              <Runs>113</Runs>
+              <Balls>119</Balls>
+              <Fours>9</Fours>
+              <Sixes>2</Sixes>
+              <StrikeRate>95.0</StrikeRate>
+            </Batting>
+          </Player>
+          <Player id="PAK02" role="All-Rounder">
+            <Name>Shadab Khan</Name>
+            <Batting>
+              <Runs>36</Runs>
+              <Balls>28</Balls>
+              <Fours>3</Fours>
+              <Sixes>1</Sixes>
+              <StrikeRate>128.57</StrikeRate>
+            </Batting>
+            <Bowling>
+              <Overs>10</Overs>
+              <Maidens>1</Maidens>
+              <Runs>48</Runs>
+              <Wickets>2</Wickets>
+              <Economy>4.8</Economy>
+            </Bowling>
+          </Player>
+        </Players>
+      </Team>
+
+      <Team name="India" coach="Rahul Dravid" captain="Rohit Sharma">
+        <Players>
+          <Player id="IND01" role="Batsman">
+            <Name>Virat Kohli</Name>
+            <Batting>
+              <Runs>122</Runs>
+              <Balls>94</Balls>
+              <Fours>12</Fours>
+              <Sixes>3</Sixes>
+              <StrikeRate>129.78</StrikeRate>
+            </Batting>
+          </Player>
+          <Player id="IND02" role="Bowler">
+            <Name>Jasprit Bumrah</Name>
+            <Bowling>
+              <Overs>10</Overs>
+              <Maidens>0</Maidens>
+              <Runs>57</Runs>
+              <Wickets>3</Wickets>
+              <Economy>5.7</Economy>
+            </Bowling>
+          </Player>
+        </Players>
+      </Team>
+    </Teams>
+
+    <Result>
+      <Winner>India</Winner>
+      <Margin>5 Wickets</Margin>
+      <Scores>
+        <TeamScore team="Pakistan" runs="270" wickets="8" overs="50.0" />
+        <TeamScore team="India" runs="274" wickets="5" overs="48.2" />
+      </Scores>
+    </Result>
+  </MatchInfo>
+</CricketMatchData>

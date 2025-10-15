@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CricketMatchData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CricketData.xsd" error="none">
+  <MatchInfo matchID="INDPAK201906" matchType="ODI" status="Completed">
+    <MatchDetails>
+      <Venue>Old Trafford, Manchester</Venue>
+      <Date>2019-06-16</Date>
+      <Weather>Overcast</Weather>
+      <Toss winner="India" decision="Bat" />
+      <Umpires>
+        <OnField>Marais Erasmus</OnField>
+        <OnField>Ruchira Palliyaguruge</OnField>
+        <ThirdUmpire>Rod Tucker</ThirdUmpire>
+        <Referee>David Boon</Referee>
+      </Umpires>
+    </MatchDetails>
+
+    <Teams>
+      <Team name="India" coach="Ravi Shastri" captain="Virat Kohli">
+        <Players>
+          <Player id="IND01" role="Batsman">
+            <Name>Rohit Sharma</Name>
+            <Batting>
+              <Runs>140</Runs>
+              <Balls>113</Balls>
+              <Fours>14</Fours>
+              <Sixes>3</Sixes>
+              <StrikeRate>123.89</StrikeRate>
+            </Batting>
+          </Player>
+          <Player id="IND02" role="Bowler">
+            <Name>Kuldeep Yadav</Name>
+            <Bowling>
+              <Overs>9</Overs>
+              <Maidens>0</Maidens>
+              <Runs>32</Runs>
+              <Wickets>2</Wickets>
+              <Economy>3.55</Economy>
+            </Bowling>
+          </Player>
+        </Players>
+      </Team>
+
+      <Team name="Pakistan" coach="Mickey Arthur" captain="Sarfaraz Ahmed">
+        <Players>
+          <Player id="PAK01" role="Batsman">
+            <Name>Fakhar Zaman</Name>
+            <Batting>
+              <Runs>62</Runs>
+              <Balls>75</Balls>
+              <Fours>7</Fours>
+              <Sixes>1</Sixes>
+              <StrikeRate>82.66</StrikeRate>
+            </Batting>
+          </Player>
+        </Players>
+      </Team>
+    </Teams>
+
+    <Result>
+      <Winner>India</Winner>
+      <Margin>89 Runs (DLS)</Margin>
+      <Scores>
+        <TeamScore team="India" runs="336" wickets="5" overs="50.0" />
+        <TeamScore team="Pakistan" runs="212" wickets="6" overs="40.0" />
+      </Scores>
+    </Result>
+  </MatchInfo>
+</CricketMatchData>
